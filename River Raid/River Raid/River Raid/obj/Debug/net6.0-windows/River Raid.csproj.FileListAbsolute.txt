@@ -1,0 +1,38 @@
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\bin\Debug\net6.0-windows\River Raid.exe
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\bin\Debug\net6.0-windows\River Raid.deps.json
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\bin\Debug\net6.0-windows\River Raid.runtimeconfig.json
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\bin\Debug\net6.0-windows\River Raid.dll
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\bin\Debug\net6.0-windows\River Raid.pdb
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.csproj.AssemblyReference.cache
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River_Raid.Form1.resources
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River_Raid.Properties.Resources.resources
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.csproj.GenerateResource.cache
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.AssemblyInfoInputs.cache
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.AssemblyInfo.cs
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.csproj.CoreCompileInputs.cache
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.dll
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\refint\River Raid.dll
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.pdb
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.genruntimeconfig.cache
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\ref\River Raid.dll
+C:\Users\Ahura\OneDrive\Desktop\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River_Raid.Form2.resources
+D:\Programmig project\River Raid\River Raid\River Raid\bin\Debug\net6.0-windows\River Raid.exe
+D:\Programmig project\River Raid\River Raid\River Raid\bin\Debug\net6.0-windows\River Raid.deps.json
+D:\Programmig project\River Raid\River Raid\River Raid\bin\Debug\net6.0-windows\River Raid.runtimeconfig.json
+D:\Programmig project\River Raid\River Raid\River Raid\bin\Debug\net6.0-windows\River Raid.dll
+D:\Programmig project\River Raid\River Raid\River Raid\bin\Debug\net6.0-windows\River Raid.pdb
+D:\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.csproj.AssemblyReference.cache
+D:\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River_Raid.Form1.resources
+D:\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River_Raid.Form2.resources
+D:\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River_Raid.Properties.Resources.resources
+D:\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.csproj.GenerateResource.cache
+D:\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.AssemblyInfoInputs.cache
+D:\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.AssemblyInfo.cs
+D:\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.csproj.CoreCompileInputs.cache
+D:\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.dll
+D:\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\refint\River Raid.dll
+D:\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.pdb
+D:\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.genruntimeconfig.cache
+D:\Programmig project\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\ref\River Raid.dll
