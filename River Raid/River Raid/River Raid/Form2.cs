@@ -48,7 +48,7 @@ namespace River_Raid
             timer3.Start();
             timer4.Start();
             timer5.Start();
-            timer6.Start();
+
 
         }
 
@@ -516,7 +516,7 @@ namespace River_Raid
                     gameover.Visible = false;
                     label1.Text = myscore + "";
                     player.Image = Properties.Resources.player;
-                    BackgroundImage = Properties.Resources.purple;
+                    BackColor = Color.Cyan;
                     timer1.Start();
                     timer2.Start();
                     timer3.Start();
@@ -556,13 +556,13 @@ namespace River_Raid
 
             if (myscore >= 20 && myscore < 30)
             {
-                BackgroundImage = Properties.Resources.dark2;
+                BackColor = Color.Black;
                 label1.BackColor = Color.White;
                 tir.Image = Properties.Resources.bullet2;
             }
             else if (myscore >= 30)
             {
-                BackgroundImage = Properties.Resources.purple;
+                BackColor = Color.Cyan;
                 tir.Image = Properties.Resources.bullet;
             }
 
@@ -639,10 +639,7 @@ namespace River_Raid
 
         }
 
-        private void timer6_Tick(object sender, EventArgs e)
-        {
 
-        }
 
 
     }

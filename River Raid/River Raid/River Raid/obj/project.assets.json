@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Ahura\\.nuget\\packages\\": {}
+    "C:\\Users\\mhk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programmig project\\River Raid\\River Raid\\River Raid\\River Raid.csproj",
+      "projectUniqueName": "D:\\Programmig project\\River Raid\\River-Raid\\River Raid\\River Raid\\River Raid\\River Raid.csproj",
       "projectName": "River Raid",
-      "projectPath": "D:\\Programmig project\\River Raid\\River Raid\\River Raid\\River Raid.csproj",
-      "packagesPath": "C:\\Users\\Ahura\\.nuget\\packages\\",
-      "outputPath": "D:\\Programmig project\\River Raid\\River Raid\\River Raid\\obj\\",
+      "projectPath": "D:\\Programmig project\\River Raid\\River-Raid\\River Raid\\River Raid\\River Raid\\River Raid.csproj",
+      "packagesPath": "C:\\Users\\mhk\\.nuget\\packages\\",
+      "outputPath": "D:\\Programmig project\\River Raid\\River-Raid\\River Raid\\River Raid\\River Raid\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ahura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mhk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

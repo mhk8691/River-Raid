@@ -51,7 +51,6 @@
             ghalb5 = new PictureBox();
             timer4 = new System.Windows.Forms.Timer(components);
             timer5 = new System.Windows.Forms.Timer(components);
-            timer6 = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)player).BeginInit();
             ((System.ComponentModel.ISupportInitialize)enemy1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)enemy2).BeginInit();
@@ -187,11 +186,11 @@
             // 
             gameover.AutoSize = true;
             gameover.BackColor = Color.Black;
-            gameover.Font = new Font("Swis721 Blk BT", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            gameover.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Regular, GraphicsUnit.Point);
             gameover.ForeColor = Color.Red;
             gameover.Location = new Point(414, 213);
             gameover.Name = "gameover";
-            gameover.Size = new Size(165, 29);
+            gameover.Size = new Size(137, 29);
             gameover.TabIndex = 9;
             gameover.Text = "Game over!";
             gameover.Visible = false;
@@ -273,17 +272,11 @@
             timer5.Interval = 2000;
             timer5.Tick += timer5_Tick;
             // 
-            // timer6
-            // 
-            timer6.Interval = 1000;
-            timer6.Tick += timer6_Tick;
-            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(255, 128, 255);
-            BackgroundImage = Properties.Resources.purple;
+            BackColor = Color.Cyan;
             ClientSize = new Size(943, 546);
             Controls.Add(ghalb5);
             Controls.Add(ghalb4);
@@ -349,6 +342,5 @@
         private PictureBox ghalb5;
         private System.Windows.Forms.Timer timer4;
         private System.Windows.Forms.Timer timer5;
-        private System.Windows.Forms.Timer timer6;
     }
 }
