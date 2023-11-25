@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("River Raid")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5eb801d61f04851a01a4b9476906b2939d598f06")]
 [assembly: System.Reflection.AssemblyProductAttribute("River Raid")]
 [assembly: System.Reflection.AssemblyTitleAttribute("River Raid")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

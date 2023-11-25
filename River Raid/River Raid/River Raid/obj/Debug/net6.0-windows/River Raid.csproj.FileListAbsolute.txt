@@ -54,3 +54,4 @@ D:\Programmig project\River Raid\River-Raid\River Raid\River Raid\River Raid\obj
 D:\Programmig project\River Raid\River-Raid\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.pdb
 D:\Programmig project\River Raid\River-Raid\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.genruntimeconfig.cache
 D:\Programmig project\River Raid\River-Raid\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\ref\River Raid.dll
+D:\Programmig project\River Raid\River-Raid\River Raid\River Raid\River Raid\obj\Debug\net6.0-windows\River Raid.sourcelink.json

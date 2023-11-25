@@ -345,6 +345,8 @@ namespace River_Raid
                     timer2.Stop();
                     myscore = 0;
                     enemyspeed = 5;
+                    tir.Image = Properties.Resources.bullet;
+                    label1.BackColor = Color.Transparent;
                 }
                 tir.Visible = false;
 
@@ -443,8 +445,6 @@ namespace River_Raid
         }
 
 
-
-
         private void RiverRaid_KeyDown(object sender, KeyEventArgs e)
         {
             int playerX = player.Location.X;
@@ -477,6 +477,7 @@ namespace River_Raid
                 }
 
             }
+
             else if (e.KeyCode == Keys.Left)
             {
                 if (tir.Visible == false)
@@ -505,7 +506,7 @@ namespace River_Raid
 
             }
 
-            else if (e.KeyCode == Keys.Up)
+            else if (e.KeyCode == Keys.Enter)
             {
 
                 if (ghalb == 0)
@@ -533,6 +534,11 @@ namespace River_Raid
                     enemy3.Location = new Point(772, -73);
                 }
 
+            }
+            else if(e.KeyCode == Keys.Up)
+            {
+                shoting = true;
+                tirplayer();
             }
             else if (e.KeyCode == Keys.Down)
             {
@@ -564,6 +570,7 @@ namespace River_Raid
             {
                 BackColor = Color.Cyan;
                 tir.Image = Properties.Resources.bullet;
+                label1.BackColor = Color.Transparent;
             }
 
 
@@ -591,8 +598,7 @@ namespace River_Raid
         {
             if (e.Button == MouseButtons.Left)
             {
-                shoting = true;
-                tirplayer();
+                
 
                 //tir.Top = player.Top - 30;
                 //tir.Left = player.Left + (player.Width / 2);
