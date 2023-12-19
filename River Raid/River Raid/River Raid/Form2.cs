@@ -51,7 +51,7 @@ namespace River_Raid
 
 
         }
-
+        int image_ghost = 0;
         int enemyspeed = 5;
         int myscore = 0;
         int ghalb = 3;
@@ -190,6 +190,7 @@ namespace River_Raid
 
         void enemy()
         {
+
             int playerX = player.Location.X;
             int playerY = player.Location.Y;
 
@@ -543,9 +544,25 @@ namespace River_Raid
             else if (e.KeyCode == Keys.Down)
             {
                 ghost++;
+                if (image_ghost % 2 == 0)
+                {
+                ghost_image.Visible = true;
+
+                image_ghost++;
+                }
+                else if(image_ghost % 2 == 1)
+                {
+                    ghost_image.Visible = false;
+
+                    image_ghost++;
+
+                }
+
+
 
 
             }
+            
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -563,14 +580,19 @@ namespace River_Raid
             if (myscore >= 20 && myscore < 30)
             {
                 BackColor = Color.Black;
-                label1.BackColor = Color.White;
+                label1.ForeColor = Color.White;
                 tir.Image = Properties.Resources.bullet2;
+                label3.ForeColor = Color.White;
+               
             }
             else if (myscore >= 30)
             {
                 BackColor = Color.Cyan;
                 tir.Image = Properties.Resources.bullet;
                 label1.BackColor = Color.Transparent;
+                label1.ForeColor = Color.Black;
+                label3.ForeColor = Color.Black;
+                
             }
 
 
@@ -617,6 +639,7 @@ namespace River_Raid
                 {
 
                     ghost2 = 1;
+
                     player.Image = Properties.Resources.player1;
 
                     label1.Text = myscore + "";
@@ -641,6 +664,8 @@ namespace River_Raid
 
             ghost2 = 0;
             player.Image = Properties.Resources.player;
+
+
 
 
         }

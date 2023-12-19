@@ -51,6 +51,8 @@
             ghalb5 = new PictureBox();
             timer4 = new System.Windows.Forms.Timer(components);
             timer5 = new System.Windows.Forms.Timer(components);
+            label3 = new Label();
+            ghost_image = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)player).BeginInit();
             ((System.ComponentModel.ISupportInitialize)enemy1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)enemy2).BeginInit();
@@ -65,6 +67,7 @@
             ((System.ComponentModel.ISupportInitialize)star4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ghalb4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)ghalb5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)ghost_image).BeginInit();
             SuspendLayout();
             // 
             // player
@@ -126,7 +129,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(12, 57);
+            label1.Location = new Point(82, 56);
             label1.Name = "label1";
             label1.Size = new Size(28, 32);
             label1.TabIndex = 4;
@@ -272,12 +275,35 @@
             timer5.Interval = 2000;
             timer5.Tick += timer5_Tick;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(8, 56);
+            label3.Name = "label3";
+            label3.Size = new Size(77, 32);
+            label3.TabIndex = 21;
+            label3.Text = "Score";
+            // 
+            // ghost_image
+            // 
+            ghost_image.Image = Properties.Resources.ghost;
+            ghost_image.Location = new Point(8, 91);
+            ghost_image.Name = "ghost_image";
+            ghost_image.Size = new Size(32, 32);
+            ghost_image.SizeMode = PictureBoxSizeMode.StretchImage;
+            ghost_image.TabIndex = 22;
+            ghost_image.TabStop = false;
+            ghost_image.Visible = false;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Cyan;
             ClientSize = new Size(943, 546);
+            Controls.Add(ghost_image);
+            Controls.Add(label3);
             Controls.Add(ghalb5);
             Controls.Add(ghalb4);
             Controls.Add(star4);
@@ -314,6 +340,7 @@
             ((System.ComponentModel.ISupportInitialize)star4).EndInit();
             ((System.ComponentModel.ISupportInitialize)ghalb4).EndInit();
             ((System.ComponentModel.ISupportInitialize)ghalb5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)ghost_image).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -342,5 +369,7 @@
         private PictureBox ghalb5;
         private System.Windows.Forms.Timer timer4;
         private System.Windows.Forms.Timer timer5;
+        private Label label3;
+        private PictureBox ghost_image;
     }
 }
